@@ -1,7 +1,6 @@
 def main():
     num_score = float(input("Enter your score between 0 and 100:"))
-    #if num_score < 0 or num_score > 100:
-     #   raise ValueError
+
     try:
         
         if 90 <= num_score <= 100:
