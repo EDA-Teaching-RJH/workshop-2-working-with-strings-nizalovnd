@@ -3,6 +3,7 @@ def main():
     myFunction(slow)
 
 def myFunction(text):
-  #Your code goes here.
-
+  word_list = text.split(" ")
+  new_string = "a".join(word_list)
+  print(new_string)
 main()
